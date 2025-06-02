@@ -15,6 +15,6 @@ height_str = input()
 height = float(height_str)
 print("Full Name:", firstName, lastName)
 print("Age:", age)
-print("Weight:", weight, "kg")
-print("Height:", height, "m")
+print(f"Weight: {weight}kg")
+print(f"Height: {height}m")
 
